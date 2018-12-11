@@ -4,8 +4,10 @@
  <head>
   <title>penisification.com</title>
   <style>
-   html, body { margin: 0;  padding: 0; }
+   body { margin: 0 30px }
    #content { margin-left: 2vw; margin-top: 2vh; }
+   * { font-family: sans-serif; }
+   img { width: 640px }
   </style>  
 
 
@@ -26,23 +28,23 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 
-    <div id="content"></div>
+    <h1>penisification</h1>
 
-    <script>
-    $(function() {
-        $.get("https://docs.google.com/document/d/e/2PACX-1vR6NnmcEWRNIgucMmBgIaIM2Js104BAhw0Bi1oZpRZ507D-4Ug9HHhB7TNzFYLMWas_LugaaXMJ7GkH/pub?embedded=true", function(html) {
-            var content = $("#content");
+    <p>Existing examples. Images taken from <a href="https://www.amusingplanet.com/2016/10/8-living-memorials-shaped-out-of-trees.html">here</a>.</p>
 
-            content.html(html);
+    <img src="guitar-forest2.jpg"><br>
+    <img src="studebaker-forest2.jpg"><br>
+    <img src="forest-swastika2.jpg"><br>
 
-            setTimeout(function() {
-                content.find('a[href^="http://"]').attr("target", "_blank");
-                content.find('a[href^="https://"]').attr("target", "_blank");
-            }, 1000);
-        });
-    });
-    </script>
-    <script src="https://genesis.re/cmdctrl/cmdctrl.js"></script>
+    <h2>be famous, make history</h2>
+
+    <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1YEvzFWEc_xK0WtaokwGnn24t1AS9Uda0" width="640" height="480"></iframe>
+
+    <h2>penisification against deforestation</h2>
+
+
+
+    <!-- <script src="https://genesis.re/cmdctrl/cmdctrl.js"></script> -->
 
  </body>
 </html>
